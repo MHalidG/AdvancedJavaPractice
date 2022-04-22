@@ -62,5 +62,5 @@ public class perfectSquare {
 
 
     }
-
+//faruk du abi
 }

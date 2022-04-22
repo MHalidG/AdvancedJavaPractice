@@ -61,10 +61,19 @@ public class getTotal {
 
         // kodu burdan başlatın ve bu satırdan önceki kodlari değiştirmeyin
         // String num1,num2,num3 kullanın
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen bir bir dogal sayi giriniz");
+        int input= scan.nextInt();
+        int output=1;// carpmanin etkisiz elemani olmali cunku faktroriyel alacagiz
 
+        for (int i = 1; i<=input; i++) {
+            output *=i;
+        }
+        System.out.println("output----> "+output);
 
+    }
+//enes abi
     }
 
 
-}
 

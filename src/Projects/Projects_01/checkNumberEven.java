@@ -36,7 +36,15 @@ public class checkNumberEven {
         //  code Start here don't change before this line
         // Kodu burdan baslatin ve bu satırdan önceki kodlari değiştirmeyin
 
+        Scanner scan= new Scanner(System.in);
+        System.out.print("Lütfen bir tam sayi giriniz: ");
+        int input=scan.nextInt();
 
+        if (input%2==0){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
     }
-
+//Suat Abiiii
 }

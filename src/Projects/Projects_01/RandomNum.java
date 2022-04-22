@@ -39,4 +39,5 @@ public class RandomNum {
 		
 
     }
+    //fatih abi
 }

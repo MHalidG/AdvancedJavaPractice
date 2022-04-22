@@ -40,13 +40,25 @@ public class countE {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-
-        String text = input.nextLine();
-
          // code start here
          // kodu burdan başlatın ve bu satırdan önceki kodlari değiştirmeyin
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen bir metin giriniz");
+        String input= scan.nextLine();
+        char arananKarakter= 'a';
+        int sayac=0;
+
+        for (int i = 0; i < input.length(); i++) {
+            if (input.charAt(i)==arananKarakter){
+                sayac++;
+            }
         }
+
+        System.out.println("input: "+input);
+        System.out.println("a: "+sayac);
+
+    }
+//huseyin abiiii
 
 }

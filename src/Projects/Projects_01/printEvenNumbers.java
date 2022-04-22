@@ -1,5 +1,6 @@
 package Projects.Projects_01;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class printEvenNumbers {
@@ -51,13 +52,16 @@ public class printEvenNumbers {
         Scanner scanner = new Scanner(System.in);
 
         int maxNum = scanner.nextInt();
-
+int minNum=scanner.nextInt();
         //  code Start here don't change before this line
         // kodu burdan başlatın ve bu satırdan önceki kodları değiştirmeyin
+Random rnd=new Random();
+
+
 
 
 
 
     }
-
+//ahmet abi
 }

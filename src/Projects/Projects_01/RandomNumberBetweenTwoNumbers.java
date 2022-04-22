@@ -31,20 +31,20 @@ public class RandomNumberBetweenTwoNumbers {
      */
 
     public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
-
-        String s1 = scanner.nextLine();
-
-        String[] elements = s1.split(" ");
-
-        int min = Integer.parseInt(elements[0]);
-        int max = Integer.parseInt(elements[1]);
-
         //  code Start here don't change before this line
        // kodu burdan başlatın ve bu satırdan önceki kodlari değiştirmeyin
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen Min degeri girin");
+        int minSayi= scan.nextInt();
+        System.out.println("Lütfen Max degeri girin");
+        int maxSayi= scan.nextInt();
 
+        int fark=maxSayi-minSayi;
+        Random rdm=new Random();
+
+        int sonuc=rdm.nextInt(fark)+1;
+        System.out.println(sonuc+minSayi);
 
     }
 }

@@ -39,6 +39,17 @@ public class factorialNumber {
          //      code start here  use int number
          //      kodu burdan başlatın ve int number kullanın
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen bir bir dogal sayi giriniz");
+        int input= scan.nextInt();
+        int output=1;// carpmanin etkisiz elemani olmali cunku faktroriyel alacagiz
+
+        for (int i = 1; i<=input; i++) {
+            output *=i;
+        }
+        System.out.println("output----> "+output);
 
     }
-}
+    //yasin abiii
+    }
+
