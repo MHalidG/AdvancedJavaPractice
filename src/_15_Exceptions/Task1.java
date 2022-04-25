@@ -9,14 +9,11 @@ public class Task1 {
     static Scanner scan = new Scanner(System.in);
     static double ortalama;
 
-
     public static void main(String[] args) {
 
         vize=vizeAl(vize);
 
         fnal=fnalAl(fnal);
-
-
         }
 
     private static int vizeAl(int vize) {
@@ -27,7 +24,8 @@ public class Task1 {
             } catch (NumberFormatException e) {
                 e.printStackTrace();
             }
-        }vizeKontrol(vize);
+        }
+        vizeKontrol(vize);
         return vize;
     }
 

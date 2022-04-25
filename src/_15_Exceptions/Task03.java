@@ -10,12 +10,12 @@ public class Task03 {
     Eğer bu iki random sayının toplamı 12 den küçükse "Exception" versin ve mesaj olarak
             ("Sayı 12'den küçük ise hata verir") print edin.
 */
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
         randomTopla();
 
     }
 
-    private static void randomTopla() throws Exception {
+    private static void randomTopla()  {
         Random rnd=new Random();
         int a= rnd.nextInt(10);
         System.out.println(a);
@@ -24,7 +24,8 @@ public class Task03 {
 
         if (a+b<12) {
             System.out.println("Sayı 12'den küçük ise hata verir");
-        throw new Exception ();
+       throw new IllegalArgumentException();
+
         }else{
             System.out.println(a+b);
         }
